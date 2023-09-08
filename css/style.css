@@ -20,9 +20,9 @@ body{
 }
 #slackUserName{
     text-align: center;
-    background: green;
+    background: rgb(128, 62, 0);
     padding: 10px;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
 }
 #slackDispalyImage{
@@ -37,7 +37,6 @@ body{
 }
 #myTrack{
     text-align: center;
-    background: grey;
     padding: 35px auto;
     /* margin: 20px; */
     font-size: 25px;
@@ -45,11 +44,10 @@ body{
 #githubURL{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     padding: 20px;
 }
-#githubURL img{
-    /* padding-bottom: 5px; */
+#githubURL a{
+    text-decoration: none;
 }
 #currentDayOfTheWeek{
     /* text-align: center; */

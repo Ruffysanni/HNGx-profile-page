@@ -1,0 +1,65 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    font-family: sans-serif;
+    background-color: goldenrod;
+    padding: 40px;
+}
+.container {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    max-width: 500px;
+    /* align-items: center; */
+    justify-content: center;
+    margin: auto auto;
+    background: white;
+}
+#slackUserName{
+    text-align: center;
+    background: green;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#slackDispalyImage{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    border: none;
+    padding: 20px;
+}
+#slackDispalyImage img{
+    border-radius: 50%;
+}
+#myTrack{
+    text-align: center;
+    background: grey;
+    padding: 35px auto;
+    /* margin: 20px; */
+    font-size: 25px;
+}
+#githubURL{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px;
+}
+#githubURL img{
+    /* padding-bottom: 5px; */
+}
+#currentDayOfTheWeek{
+    /* text-align: center; */
+}
+#currentUTCTime, #currentDayOfTheWeek{
+    font-size: large;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+#currentUTCTime{
+    padding-bottom: 40px;
+}

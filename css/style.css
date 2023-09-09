@@ -35,6 +35,7 @@ body{
 }
 #slackDispalyImage img{
     border-radius: 50%;
+    object-fit: contain;
 }
 #myTrack{
     text-align: center;

@@ -2,9 +2,9 @@
     margin:  0;
     padding: 0;
     box-sizing: border-box;    
+    text-decoration: none;
 }
 body{
-    font-family: sans-serif;
     background-color: goldenrod;
     padding: 40px;
 }
@@ -23,7 +23,8 @@ body{
     background: rgb(128, 62, 0);
     padding: 10px;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
 }
 #slackDispalyImage{
     display: flex;
@@ -44,10 +45,15 @@ body{
 #githubURL{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding-block-start: 0.5em
+   
 }
 #githubURL a{
-    text-decoration: none;
+   color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
 }
 #currentDayOfTheWeek{
     /* text-align: center; */
